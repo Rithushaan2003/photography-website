@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #00fff2;
+    padding: 10px; /* Changed to pixels */
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 0px; /* Increased spacing between links */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 8px 15px; /* Adjusted padding */
+    border-radius: 5px;
+}
+
+.navbar a.active, .navbar a:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+/* About Us Header */
+.about-header {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 60px 30px; /* Adjusted padding */
+}
+
+.about-header h1 {
+    font-size: 48px; /* Changed to pixel */
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.about-header p {
+    font-size: 25px; /* Changed to pixel */
+}
+
+/* Mission Section */
+.mission {
+    padding: 50px 20px; /* Adjusted padding */
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.mission h2 {
+    font-size: 32px; /* Changed to pixel */
+    margin-bottom: 20px;
+}
+
+.mission p {
+    font-size: 20px; /* Changed to pixel */
+    color: #555;
+}
+
+/* Team Section */
+.team {
+    padding: 50px 20px; /* Adjusted padding */
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 32px; /* Changed to pixel */
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Adjusted gap */
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px; /* Adjusted padding */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    max-width: 300px; /* Increased max-width */
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 220px;
+    height: 230px;
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.team-member h3 {
+    font-size: 20px; /* Changed to pixel */
+    margin-bottom: 10px; /* Adjusted margin */
+}
+
+.team-member p {
+    font-size: 16px; /* Changed to pixel */
+    color: #555;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 50px 20px; /* Adjusted padding */
+}
+
+.contact h2 {
+    font-size: 32px; /* Changed to pixel */
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 20px; /* Changed to pixel */
+    margin-bottom: 30px; /* Adjusted margin */
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #00fff2; /* Bright turquoise */
+    color: #000000; /* Black text */
+    padding: 15px 30px; /* Increased padding */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;
+    font-size: 18px; /* Changed to pixel */
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+    border: none; /* Make it appear as a clean button */
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #ff0000; /* Red for hover effect */
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Adjusted padding */
+}

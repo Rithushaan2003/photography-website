@@ -1,0 +1,135 @@
+/* General Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* General text color for better contrast */
+    height: 100%; /* Ensure body takes full height */
+    width: 100%; /* Ensure body takes full width */
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #00fff2; /* Bright turquoise */
+    padding: 10px; /* Converted to pixels (1rem = 16px) */
+    text-align: center;
+    position: fixed;
+    width: 100%; /* Full width navbar */
+    top: 0; /* Sticks navbar to the top */
+    z-index: 100; /* Keeps navbar on top of other sections */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 0px; /* Slight spacing between navigation items */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px; /* 18px font size */
+    padding: 8px 20px; /* Padding in pixels */
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar a.active, .navbar a:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('../Gallery/Images/IMG_6335.jpeg'); /* Relative path to the image */
+    background-size: cover; /* Cover the whole section */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px; /* 20px padding on both sides */
+    box-sizing: border-box; /* Ensures padding is included in height calculation */
+}
+
+.hero h1 {
+    font-size: 48px; /* 48px font size */
+    color: #ffffff;
+    margin-bottom: 10px; /* 10px margin */
+}
+
+.hero p {
+    font-size: 25px; /* 25px font size */
+    color: #fffafa; 
+}
+
+/* Welcome Section */
+.welcome {
+    text-align: center;
+    padding: 40px 20px; /* 40px top and bottom, 20px left and right */
+    margin: 40px 0; /* 40px margin top and bottom */
+    background-color: #00fff2; /* Turquoise background */
+    border-radius: 5px;
+}
+
+.welcome h2 {
+    margin-top: 0;
+    color: #000000; /* Black text for the heading */
+    font-size: 35px; /* 35px font size */
+}
+
+.welcome p {
+    color: #000000; /* Dark text for the paragraph */
+    font-size: 20px; /* 20px font size */
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* 10px padding */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Query for Responsiveness */
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        display: block;
+        text-align: left;
+    }
+
+    @media (max-width: 600px) {
+        #gallery {
+            grid-template-columns: 1fr;
+        }
+    }
+    
+    .navbar li {
+        margin: 10px 0; /* 10px margin between items on mobile */
+    }
+
+    .hero h1 {
+        font-size: 32px; /* Smaller font size for mobile */
+    }
+
+    .welcome h2 {
+        font-size: 24px; /* Smaller font size for mobile */
+    }
+
+    .about h2 {
+        font-size: 24px; /* Smaller font size for mobile */
+    }
+}

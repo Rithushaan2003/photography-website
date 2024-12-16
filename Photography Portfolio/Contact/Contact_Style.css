@@ -1,0 +1,118 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    height: 100%; /* Full height for layout */
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #00fff2; /* Bright turquoise */
+    padding: 10px 0; /* Adjusted for better spacing */
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navbar a.active, .navbar a:hover {
+    background-color: #ff0000; /* Highlight active link */
+    color: white;
+}
+
+/* Contact Section - Centering the Form */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 90vh; /* Full viewport height for vertical centering */
+    padding: 0px;
+    text-align: center;
+}
+
+/* Heading for the Contact Section */
+.contact-section h1 {
+    font-size: 40px; /* Pixel size for the heading */
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* Paragraph for the Contact Section */
+.contact-section p {
+    font-size: 20px; /* Pixel size for the paragraph */
+    color: #000000;
+    margin-bottom: 30px;
+    max-width: 800px; /* Optional: limit paragraph width */
+}
+
+/* Contact Form */
+.contact-form {
+    width: 100%;
+    max-width: 1000px; /* Increase form width */
+    padding: 30px; /* Increased padding */
+    background: #ffffff; /* White background for form */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for form */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px; /* Added extra margin for spacing */
+    font-size: 18px; /* Increased font size for labels */
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 15px; /* Increased padding for larger input fields */
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size for inputs */
+    box-sizing: border-box;
+    min-height: 50px; /* Increased height for input fields */
+}
+
+.contact-form textarea {
+    height: 180px; /* Increased height for textarea */
+}
+
+.contact-form input[type="submit"] {
+    background-color: #00fff2;
+    color: black;
+    border: none;
+    padding: 15px 30px; /* Increased padding for submit button */
+    font-size: 18px; /* Increased font size for submit button */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+    margin-top: 20px; /* Adds spacing before the button */
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #ff0000; /* Hover effect */
+    color: white;
+}

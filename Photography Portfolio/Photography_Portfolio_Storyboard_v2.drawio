@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page 1">
+    <mxGraphModel dx="1035" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" value="" style="group" vertex="1" connectable="0">
+          <mxGeometry x="0" y="0" width="827" height="1169" as="geometry"/>
+        </mxCell>
+        <mxCell id="1" value="" style="group" vertex="1" connectable="0">
+          <mxGeometry width="827" height="1169" as="geometry"/>
+        </mxCell>
+        <mxCell id="2" value="Homepage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="30" y="40" width="200" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Navigation Bar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="35" y="70" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Hero Section (Introduction)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="35" y="110" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Welcome Section" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="35" y="170" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Gallery" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="260" y="40" width="200" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Gallery (Photo Thumbnails)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="265" y="70" width="150" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="About Us" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="500" y="40" width="200" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="About Us Section" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="505" y="70" width="150" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Contact Us" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="740" y="40" width="200" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Contact Form" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="745" y="70" width="150" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Footer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="35" y="220" width="200" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
